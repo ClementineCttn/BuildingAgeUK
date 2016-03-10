@@ -87,7 +87,7 @@ categories = sort(unique(cats))
 
 
 # Import Polly's classification
-tablePolly = read.csv("LB_London/AllListedCategoriesPolly.csv", sep=",", dec=".")
+tablePolly = read.csv("AllListedCategoriesPolly.csv", sep=",", dec=".")
 catsPolly = unique(as.character(tablePolly$CategoryPolly))
 catsPolly
 
